@@ -1,0 +1,39 @@
+/* Files Css */
+@import url('header.css');
+@import url('home.css');
+@import url('footer.css');
+
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { 
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+/* variables */
+:root {
+    /* Colors */
+    --blue: #000266;
+    --violet: #7a00a0fb;
+    --red: #d4360e;
+    --grey: #394867;
+    --greyLight: #c5c5c5f6;
+    --errorMessage: #ff0000;
+
+    /* Fonts */
+    --fontText: 'Roboto', sans-serif;
+
+}
